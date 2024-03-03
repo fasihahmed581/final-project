@@ -1,0 +1,209 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+nav{
+  border: blue solid;
+ 
+width: 100%;
+position: absolute;
+top: 0px;
+left:0px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding: 20px 60px;
+z-index: 999;
+}
+main{
+  border: 2px solid;
+  width: 100%;
+  height: 500px;
+}
+
+.dental{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: 208vh;
+    position: relative;
+}
+
+.links{
+width: 100%;
+list-style: none;
+display: flex;
+justify-content: flex-end;
+margin: 50px;
+}
+.links li{
+margin: 10px;
+}
+
+.links a{
+font-size: 16px;
+text-decoration: none;
+color: #000;
+transition: color 0.3s ease;
+}
+
+.links a:hover{
+color: #7f00ff;
+}
+
+.dental-content{
+text-align: center;
+}
+.dental-content h1{
+color: #000;
+font-size: 65px;
+margin: 20px;
+}
+
+.dental-content p{
+    color: #000;
+    font-size: 17px;
+    margin: 20px;
+}
+
+.dental-content .button{
+display: inline-block;
+padding: 12px 24px;
+background-color: white;
+font-size: 16px;
+color: #fff;
+text-decoration: none;
+border-radius: 4px;
+transition: backgroundcolor 0.3s ease;
+}
+
+.dental-content .button:hover{
+    background-color: #007d9a;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Reset some default margin and padding */
+body, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply some basic styling to the footer */
+  footer {
+    background-color:  #007d9a;
+    color: #fff;
+    padding: 150px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Style the logo */
+  footer img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  /* Style the contact details */
+  .contact_detail {
+    margin: 20px 50px;
+  }
+  
+  /* Style the service hours table */
+  .timetable_hours {
+    width: 100%;
+  }
+  
+  .timetable_hours td {
+    
+    padding: 5px;
+    text-align: center;
+  }
+  
+  
+  
+
+
+
+
+  .menu_container,
+.top_menu_container {
+  padding-top: 20px;
+    
+    
+}
+
+.menu_container ul.main_menu {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.menu_container ul.main_menu li {
+    float: left;
+    background: inherit;
+    width: auto;
+    text-align: left;
+    position: relative;
+}
+
+
+
+.menu_container ul.main_menu li a {
+    font-size: 17px;
+    line-height: 1em;
+    padding: 10px 15px;
+    padding-bottom: 50px;
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: transparent
+}
+
+.menu_container ul.main_menu li a:link,
+.menu_container ul.main_menu li a:visited {
+    color: #007d9a
+}
+
+
+
+.header .topbar a:link,
+        .header .topbar a:visited {
+          
+            color: #555
+        }
+
+        .header .topbar .container {
+          
+            border-bottom: solid 1px #cdf6ff
+        }
+
+        
+          
+
+
+
+
+
+
+
